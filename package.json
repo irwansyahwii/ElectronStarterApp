@@ -1,0 +1,13 @@
+{
+  "main": "launcher.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel/register tests/***"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.1.2",
+    "mocha": "^2.3.3"
+  },
+  "dependencies": {
+    "riot": "^2.2.4"
+  }
+}
