@@ -1,8 +1,5 @@
 import fs from "fs";
 
-global.document = {};
-GLOBAL.document = {};
-
 import riot from "riot";
 // import "./messages.tag";
 // import "./name-bar.tag";

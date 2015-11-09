@@ -77,6 +77,38 @@ describe("DesktopAppTag", ()=>{
             }
 
         });
+        it("should subscribe the handlers to the correct platform app event", ()=>{
+            let opts = {
+                onwill_finish_launching: () =>{},
+                onready : () =>{},
+                onwindow_all_closed: () =>{},
+                onbefore_quit: () =>{},
+                onwill_quit: () =>{},
+                onquit: () =>{},
+                onopen_file: () =>{},
+                onopen_url: () =>{},
+                onactivate: () =>{},
+                onbrowser_window_blur: () =>{},
+                onbrowser_window_focus: () =>{},
+                onbrowser_window_created: () =>{},
+                onselect_certificate: () => {},
+                ongpu_process_crashed: () => {}
+            };
+            
+
+            for(let curr_opt in opts){
+                let platformApp = {};
+                let the_opts = {};
+                the_opts[curr_opt] = opts[curr_opt];
+
+                let app = new DesktopAppTag(the_opts);                    
+                app.platformApp = platformApp;
+                    
+                app.init();
+
+                assert.equal(platformApp[curr_opt], app[curr_opt]);
+            }
+        })
     })
 
     
