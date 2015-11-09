@@ -1,11 +1,18 @@
 import fs from "fs";
 
+global.document = {};
+GLOBAL.document = {};
+
 import riot from "riot";
-import "./electron-app.tag";
-import "./electron-app-with-main-window.tag";
-import "./browser-window.tag";
+// import "./messages.tag";
+// import "./name-bar.tag";
+// import "./dock-layout.tag";
+
+import "./desktop-app.tag";
+
 import main from "./main.tag";
 
 
-riot.render(main);
+let s = riot.render(main);
+console.log(s);
 

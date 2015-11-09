@@ -8,6 +8,7 @@
     "mocha": "^2.3.3"
   },
   "dependencies": {
-    "riot": "^2.2.4"
+    "riot": "git+https://github.com/irwansyahwii/riot.git",
+    "validate.js": "^0.9.0"
   }
 }
