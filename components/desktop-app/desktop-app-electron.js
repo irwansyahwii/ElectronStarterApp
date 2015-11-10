@@ -10,6 +10,7 @@ export default class ElectronDesktopApp extends DesktopAppTag{
 
     wired_event_to_platformApp(event_name){
         super.wired_event_to_platformApp(event_name);
+
         
         if(this[event_name] !== null){
             let platform_event_name = event_name.replace("on", "");
@@ -21,4 +22,9 @@ export default class ElectronDesktopApp extends DesktopAppTag{
             this.platformApp.on(platform_event_name, this[event_name]);
         }
     }
+
+    init(){
+        super.init();
+    }
+
 }

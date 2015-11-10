@@ -18,13 +18,17 @@ const event_names = [
 ];
 
 export default class DesktopAppTag{
-    constructor(opts){
+    constructor(tagInstance){
+        this.tagInstance = tagInstance;
+        this.tagInstance.controller = this;
+        this.opts = this.tagInstance.opts;
+        // console.log(tagInstance);
         this.platformApp = null;
-        this.opts = opts;
 
         for(let event_name of event_names){
-            this[event_name] = opts[event_name] || null;
+            this[event_name] = this.opts[event_name] || null;
         }
+        this.windows = {};
     }
 
     validate_handler(handler_name){
@@ -43,9 +47,24 @@ export default class DesktopAppTag{
     }
 
     init(){
-        for(let event_name of event_names){
-            this.validate_handler(event_name);
-            this.wired_event_to_platformApp(event_name);
-        }
+
+        this.tagInstance.on("mount", ()=>{     
+
+            for(let childTagName in this.tagInstance.tags){                
+                let childTagInstance = this.tagInstance.tags[childTagName];
+
+                if(childTagName === "app-window"){
+                    childTagInstance.controller.createWindow(this.tagInstance);
+                }
+            }            
+
+            for(let event_name of event_names){
+                this.validate_handler(event_name);
+                this.wired_event_to_platformApp(event_name);
+            }            
+        })
+
+
+        return this;
     }
 }

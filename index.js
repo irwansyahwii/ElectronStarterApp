@@ -5,7 +5,8 @@ import riot from "riot";
 // import "./name-bar.tag";
 // import "./dock-layout.tag";
 
-import "./desktop-app.tag";
+import "./components/desktop-app/desktop-app.tag";
+import "./components/app-window/app-window.tag";
 
 import main from "./main.tag";
 
