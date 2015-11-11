@@ -49,6 +49,12 @@
             this.root.browserWindow.show();
         }
 
+        this.root.loadUrl = (url)=>{
+            if(this.root.browserWindow){
+                this.root.browserWindow.loadUrl(url);
+            }
+        }
+
         if(this.root.autoshow){
             if(appInstance){
                 appInstance.on("ready", ()=>{

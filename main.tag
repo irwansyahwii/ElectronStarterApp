@@ -18,6 +18,7 @@
 
             try{
                 this.app.win1.show();
+                this.app.win1.loadUrl(this.indexFile);
             }
             catch(err){
                 console.log(err);
