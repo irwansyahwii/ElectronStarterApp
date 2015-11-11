@@ -10,7 +10,7 @@
             console.log("haiii");
         }
         
-        this.root.onready = opts.onready;
+        this.root.onready = opts.onready || null;
         this.root.name = this.opts.name || "";
         this.root.appInstance = app;
 
