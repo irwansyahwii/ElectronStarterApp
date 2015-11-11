@@ -4,6 +4,106 @@
 		"selected_items":
 		[
 			[
+				"win",
+				"win1"
+			],
+			[
+				"on",
+				"onready"
+			],
+			[
+				"app",
+				"app-window"
+			],
+			[
+				"con",
+				"controller"
+			],
+			[
+				"inde",
+				"indexFile"
+			],
+			[
+				"pla",
+				"platformApp"
+			],
+			[
+				"des",
+				"desktop-app"
+			],
+			[
+				"tga",
+				"tagInstance"
+			],
+			[
+				"c",
+				"createWindow"
+			],
+			[
+				"tag",
+				"tagInstance"
+			],
+			[
+				"pl",
+				"platformApp"
+			],
+			[
+				"th",
+				"the_opts"
+			],
+			[
+				"ta",
+				"tag_instance"
+			],
+			[
+				"pro",
+				"proxyquire"
+			],
+			[
+				"pr",
+				"proxyquire"
+			],
+			[
+				"eve",
+				"event_name"
+			],
+			[
+				"e",
+				"event_names"
+			],
+			[
+				"onbrowser_window_",
+				"onbrowser_window_created"
+			],
+			[
+				"de",
+				"DesktopAppTag"
+			],
+			[
+				"onbro",
+				"onbrowser_window_focus"
+			],
+			[
+				"onbr",
+				"onbrowser_window_blur"
+			],
+			[
+				"onop",
+				"onopen_url"
+			],
+			[
+				"onwi",
+				"onwill_quit"
+			],
+			[
+				"val",
+				"validate_handler"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
 				"dock",
 				"dock-layout"
 			],
@@ -32,10 +132,6 @@
 				"pushTags"
 			],
 			[
-				"ta",
-				"tagName"
-			],
-			[
 				"inn",
 				"innerHTML"
 			],
@@ -50,10 +146,6 @@
 			[
 				"ap",
 				"appInstance"
-			],
-			[
-				"on",
-				"onReady"
 			],
 			[
 				"sc",
@@ -106,10 +198,6 @@
 			[
 				"re",
 				"result"
-			],
-			[
-				"val",
-				"valid_date"
 			],
 			[
 				"cur",
@@ -380,10 +468,6 @@
 				"content_width"
 			],
 			[
-				"con",
-				"context"
-			],
-			[
 				"list",
 				"list_layout"
 			],
@@ -420,10 +504,6 @@
 				"script"
 			],
 			[
-				"inde",
-				"indexHtmlPath"
-			],
-			[
 				"user_A",
 				"user_access	user_access"
 			],
@@ -434,137 +514,49 @@
 			[
 				"admin",
 				"administer"
-			],
-			[
-				"fun",
-				"function"
-			],
-			[
-				"bu",
-				"build"
-			],
-			[
-				"com",
-				"completeErrorMessage"
-			],
-			[
-				"Err",
-				"ErrorMessageBucket"
-			],
-			[
-				"ro",
-				"row"
-			],
-			[
-				"row",
-				"rowNo"
-			],
-			[
-				"va",
-				"value"
-			],
-			[
-				"vali",
-				"validate"
-			],
-			[
-				"AU",
-				"AUDI_YEAR"
-			],
-			[
-				"cha",
-				"chapter"
-			],
-			[
-				"date",
-				"dateOnly"
-			],
-			[
-				"Mem",
-				"Member"
-			],
-			[
-				"reu",
-				"return"
-			],
-			[
-				"uni",
-				"UniqueEmail"
-			],
-			[
-				"Ema",
-				"EmailBucket"
-			],
-			[
-				"em",
-				"EmailBucket"
-			],
-			[
-				"cou",
-				"countryList"
-			],
-			[
-				"D",
-				"DB"
-			],
-			[
-				"Dur",
-				"DrupalDB"
-			],
-			[
-				"Dru",
-				"DrupalDB"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "dock-layout.tag",
-			"settings":
-			{
-				"buffer_size": 1378,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "<ProportionalLayout>\n</ProportionalLayout>",
-			"settings":
-			{
-				"buffer_size": 42,
-				"line_ending": "Unix",
-				"name": "<ProportionalLayout>"
-			}
-		},
-		{
-			"file": "index.js",
-			"settings":
-			{
-				"buffer_size": 248,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "messages.tag",
-			"settings":
-			{
-				"buffer_size": 147,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "name-bar.tag",
-			"settings":
-			{
-				"buffer_size": 147,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "main.tag",
 			"settings":
 			{
-				"buffer_size": 402,
+				"buffer_size": 851,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "readme.md",
+			"settings":
+			{
+				"buffer_size": 738,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<simple",
+			"settings":
+			{
+				"buffer_size": 7,
+				"line_ending": "Unix",
+				"name": "<simple"
+			}
+		},
+		{
+			"file": "components/app-window/app-window.tag",
+			"settings":
+			{
+				"buffer_size": 282,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "components/desktop-app/desktop-app.tag",
+			"settings":
+			{
+				"buffer_size": 354,
 				"line_ending": "Unix"
 			}
 		}
@@ -596,10 +588,50 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 227.0,
-		"last_filter": "remo",
+		"height": 27.0,
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"jav",
+				"Set Syntax: JavaScript Next"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript Next"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript Next"
+			],
+			[
+				"jso",
+				"Set Syntax: JSON"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"javascr",
+				"Set Syntax: JavaScript Next"
+			],
+			[
+				"rmeove",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
 			[
 				"remo",
 				"Package Control: Remove Package"
@@ -663,27 +695,56 @@
 	"expanded_folders":
 	[
 		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp",
+		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/components",
+		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/components/app-window",
+		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/components/desktop-app",
 		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/node_modules/riot",
 		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/node_modules/riot/lib",
 		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/node_modules/riot/lib/server",
+		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/node_modules/validate.js",
 		"/Users/irwansyah/PROJECTS/Riot/riot-server-render"
 	],
 	"file_history":
 	[
-		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/node_modules/riot/lib/server/sdom.js",
-		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/node_modules/riot/lib/server/index.js",
-		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/famous-flex/LayoutController.js",
+		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/index.html",
+		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/components/app-window/app-window.js",
+		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/components/desktop-app/desktop-app.tag",
+		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/components/desktop-app/desktop-app.js",
 		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/main.tag",
-		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/dock-layout.tag",
-		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/node_modules/riot/riot.js",
-		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/launcher.js",
+		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/components/app-window/app-window-electron.js",
+		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/components/desktop-app/desktop-app-electron.js",
+		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/tests/AppWindowTagTests.js",
+		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/tests/DesktopAppTagTests.js",
 		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/index.js",
+		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/components/app-window/app-window.tag",
+		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/desktop-app.tag",
+		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/desktop-app.js",
+		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/app-window.js",
+		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/app-window-electron.js",
+		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/desktop-app-electron.js",
+		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/app-window.tag",
+		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/app-window-electron.j",
+		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/node_modules/mock-require/index.js",
+		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/tests/DesktopAppElectronTagTests.js",
+		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/node_modules/jspm/node_modules/systemjs/test/tests/module.js",
+		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/dock-layout.tag",
+		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/dock-layout.html",
+		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/dock-layout.jade",
+		"/Users/irwansyah/Library/Application Support/Sublime Text 3/Packages/User/jadetag.sublime-build",
+		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/electron-app.tag",
+		"/Users/irwansyah/Library/Application Support/Sublime Text 3/Packages/User/coffeescript.sublime-build",
+		"/Users/irwansyah/Library/Application Support/Sublime Text 3/Installed Packages/Jade.sublime-package",
+		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/dock-layout.tagjade",
 		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/package.json",
-		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/message-bar.tag",
+		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/node_modules/riot/lib/server/index.js",
 		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/messages.tag",
 		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/name-bar.tag",
+		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/node_modules/riot/lib/server/sdom.js",
+		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/famous-flex/LayoutController.js",
+		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/node_modules/riot/riot.js",
+		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/launcher.js",
+		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/message-bar.tag",
 		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/readme.md",
-		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/electron-app.tag",
 		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/electron-app-with-main-window.tag",
 		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/browser-window.tag",
 		"/Users/irwansyah/PROJECTS/Riot/ElectronSkeletonApp/tests/ElectronAppTests.js",
@@ -772,32 +833,7 @@
 		"/Users/irwansyah/PROJECTS/irwan-ACNA-Website/sites/all/modules/rules/includes/rules.plugins.inc",
 		"/Users/irwansyah/PROJECTS/irwan-ACNA-Website/sites/all/modules/pathauto/pathauto.test",
 		"/Users/irwansyah/PROJECTS/irwan-ACNA-Website/sites/all/modules/acna_check_payments/acna_check_payments.module",
-		"/Users/irwansyah/PROJECTS/irwan-ACNA-Website/sites/all/modules/acna_migration/acna_migration.module",
-		"/Users/irwansyah/PROJECTS/irwan-ACNA-Website/sites/all/modules/panels/templates/panels-dashboard.tpl.php",
-		"/Users/irwansyah/PROJECTS/irwan-ACNA-Website/sites/all/modules/ms_membership/ms_membership.module",
-		"/Users/irwansyah/PROJECTS/irwan-ACNA-Website/sites/all/modules/panels/templates/panels-dashboard-link.tpl.php",
-		"/Users/irwansyah/PROJECTS/irwan-ACNA-Website/sites/all/modules/admin_menu/admin_menu.inc",
-		"/Users/irwansyah/PROJECTS/acna-tools/imis_import/index.coffee",
-		"/Users/irwansyah/PROJECTS/acna-tools/imis_import/MemberManager.coffee",
-		"/Users/irwansyah/PROJECTS/acna-tools/imis_import/Member.coffee",
-		"/Users/irwansyah/PROJECTS/acna-tools/results.txt",
-		"/Users/irwansyah/PROJECTS/irwan-ACNA-Website/sites/default/sql/_adhoc_fields.sql",
-		"/Users/irwansyah/PROJECTS/irwan-ACNA-Website/sites/default/files/forena-reports/adhoc_report.frx",
-		"/Users/irwansyah/PROJECTS/acna-tools/imis_import/DB.coffee",
-		"/Users/irwansyah/PROJECTS/irwan-ACNA-Website/sites/all/modules/audiclubna/audiclubna.module",
-		"/Users/irwansyah/PROJECTS/irwan-ACNA-Website/sites/all/modules/forena/renderers/FrxRenderer.inc",
-		"/Users/irwansyah/PROJECTS/irwan-ACNA-Website/sites/all/modules/forena/FrxEditor.inc",
-		"/Users/irwansyah/PROJECTS/irwan-ACNA-Website/sites/all/modules/forena/forena.module",
-		"/Users/irwansyah/PROJECTS/irwan-ACNA-Website/sites/all/modules/forena/docformats/FrxCSV_IrwanDoc.inc",
-		"/Users/irwansyah/PROJECTS/irwan-ACNA-Website/sites/all/modules/forena/Frx.inc",
-		"/Users/irwansyah/PROJECTS/irwan-ACNA-Website/sites/all/modules/forena/docformats/FrxCSVDoc.inc",
-		"/Users/irwansyah/PROJECTS/irwan-ACNA-Website/sites/all/modules/forena/FrxEditorDirectCSV.inc",
-		"/Users/irwansyah/PROJECTS/irwan-ACNA-Website/sites/all/modules/forena/FrxDocument.inc",
-		"/Users/irwansyah/PROJECTS/irwan-ACNA-Website/sites/all/modules/forena/FrxData.inc",
-		"/Users/irwansyah/PROJECTS/irwan-ACNA-Website/sites/all/modules/forena/FrxBlockEditor.inc",
-		"/Users/irwansyah/PROJECTS/irwan-ACNA-Website/sites/all/modules/forena/FrxReport.inc",
-		"/Users/irwansyah/PROJECTS/irwan-ACNA-Website/sites/all/modules/forena/plugins/FrxDrupal.inc",
-		"/Users/irwansyah/PROJECTS/irwan-ACNA-Website/sites/all/modules/forena/FrxSyntaxEngine.inc"
+		"/Users/irwansyah/PROJECTS/irwan-ACNA-Website/sites/all/modules/acna_migration/acna_migration.module"
 	],
 	"find":
 	{
@@ -857,6 +893,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"childTag",
+			"control",
+			"window>",
+			"event_name",
+			");",
+			"this.validate_handler(",
+			"validate_handler",
+			"() =>",
+			"onselect_certificate",
+			"onbrowser_window_created",
+			"=>,",
 			"Document",
 			"document",
 			"Document",
@@ -973,18 +1020,7 @@
 			"NavBarLayout",
 			"_contextSet",
 			"_context",
-			"LayoutContext",
-			"context",
-			"NavBarLayout",
-			"_selectLayout",
-			"layoutListRenderables",
-			"resize",
-			"opacity",
-			"layout_function",
-			"layoutDetailsView",
-			"sidebar",
-			"_createSidebar",
-			"layoutListRenderables"
+			"LayoutContext"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1002,24 +1038,24 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "dock-layout.tag",
+					"file": "main.tag",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1378,
+						"buffer_size": 851,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								143,
-								143
+								553,
+								553
 							]
 						],
 						"settings":
@@ -1032,80 +1068,108 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": "readme.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 42,
+						"buffer_size": 738,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								42,
-								42
+								738,
+								738
 							]
 						],
 						"settings":
 						{
-							"auto_name": "<ProportionalLayout>",
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "index.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 248,
+						"buffer_size": 7,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								135,
-								135
+								7,
+								7
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"auto_name": "<simple",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "messages.tag",
+					"file": "components/app-window/app-window.tag",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 147,
+						"buffer_size": 282,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								80,
-								48
+								141,
+								141
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "components/desktop-app/desktop-app.tag",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 354,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								295,
+								295
 							]
 						],
 						"settings":
@@ -1117,62 +1181,6 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "name-bar.tag",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 147,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								80,
-								80
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "main.tag",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 402,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								148,
-								148
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1217,7 +1225,7 @@
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "",
+	"pinned_build_system": "Packages/Jade Build/Jade.sublime-build",
 	"project": "ElectronSkeletonApp.sublime-project",
 	"replace":
 	{
@@ -1230,6 +1238,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"module",
+				"ElectronSkeletonApp/node_modules/jspm/node_modules/systemjs/test/tests/module.js"
+			],
 			[
 				"famousengine",
 				"node_modules/famous/core/Engine.js"
@@ -1737,10 +1749,6 @@
 			[
 				"membershiby",
 				"irwan-ACNA-Website/sites/default/sql/membership_by_chapter.sql"
-			],
-			[
-				"membership_by_state.sql",
-				"irwan-ACNA-Website/sites/default/sql/membership_by_state.sql"
 			]
 		],
 		"width": 0.0

@@ -12,5 +12,5 @@ import main from "./main.tag";
 
 
 let s = riot.render(main);
-console.log(s);
+// console.log(s);
 
