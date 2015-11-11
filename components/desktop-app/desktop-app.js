@@ -1,70 +1,53 @@
-import validate from "validate.js";
-
-const event_names = [
-    "onwill_finish_launching",
-    "onready",
-    "onwindow_all_closed",
-    "onbefore_quit",
-    "onwill_quit",
-    "onquit",
-    "onopen_file",
-    "onopen_url",
-    "onactivate",
-    "onbrowser_window_blur",
-    "onbrowser_window_focus",
-    "onbrowser_window_created",
-    "onselect_certificate",
-    "ongpu_process_crashed"
-];
-
 export default class DesktopAppTag{
-    constructor(tagInstance){
-        this.tagInstance = tagInstance;
-        this.tagInstance.controller = this;
-        this.opts = this.tagInstance.opts;
-        // console.log(tagInstance);
-        this.platformApp = null;
+    constructor(tag){
+        this.tag = tag;
+        this.tag_name = "desktop-app";
 
-        for(let event_name of event_names){
-            this[event_name] = this.opts[event_name] || null;
-        }
-        this.windows = {};
+        // this.tag.mixin(this);
+
+        this.init();
     }
 
-    validate_handler(handler_name){
-
-        if(this[handler_name] != null){
-            if(!validate.isFunction(this[handler_name])){
-                throw new Error(`opts.${handler_name} must be a function`);
-            }
-        }        
-    }
-
-    wired_event_to_platformApp(event_name){
-        if(this.platformApp === null){
-            throw new Error("Please assign platformApp first before wiring events");
-        }
+    sayHello(){
+        console.log("haiii");
     }
 
     init(){
+        if(!this.tag.opts.id){
+            throw new Error("id is missing");
+        }
 
-        this.tagInstance.on("mount", ()=>{     
+        // this.tag.mixin(this);
 
-            for(let childTagName in this.tagInstance.tags){                
-                let childTagInstance = this.tagInstance.tags[childTagName];
+        this.tag.on("mount", ()=>{
 
-                if(childTagName === "app-window"){
-                    childTagInstance.controller.createWindow(this.tagInstance);
+            //Retrieve parent.{id} property
+            let appProperty = this.tag.parent[this.tag.opts.id];
+
+
+            for(let child_tag_name in this.tag.tags){
+
+                //Iterate all <app-window> childs
+                //and assign it to parent.{id}
+                if(child_tag_name === "app-window"){
+                    let single_or_array_childs = this.tag.tags[child_tag_name];
+                    if(single_or_array_childs.length){
+                        for(let child_tag of single_or_array_childs){
+                            appProperty[child_tag.opts.id] = child_tag;
+                        }
+                    }
+                    else{                        
+                        appProperty[single_or_array_childs.opts.id] = single_or_array_childs;
+                    }
                 }
-            }            
+            }
 
-            for(let event_name of event_names){
-                this.validate_handler(event_name);
-                this.wired_event_to_platformApp(event_name);
-            }            
+
+            //Raise the onready event
+            let onReadyHandler = this.tag.opts.onready || null;
+            if(onReadyHandler !== null){
+                onReadyHandler();
+            }
         })
-
-
-        return this;
     }
 }

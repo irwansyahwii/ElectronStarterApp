@@ -3,15 +3,37 @@
     <yield/>
 
     <script type="text/es6">
-        // import DesktopAppTag from "./desktop-app-electron";
 
-        // new DesktopAppTag(this).init();
+        import app from "app";
 
-        // console.log("desktop-app tag initialized");
+        this.root.sayHello = ()=>{
+            console.log("haiii");
+        }
+        
+        this.root.onready = opts.onready;
+        this.root.name = this.opts.name || "";
+        this.root.appInstance = app;
 
-        this.on("mount", () =>{
-            console.log("desktop-app on mount");
+
+        /*
+            All the child custom tags including all the descendants custom tags are 
+            available on this mount event triggered but not for html known tags.
+        */
+        this.on("mount", ()=>{
+
+            app.on("window-all-closed", ()=>{
+                if(process.platform != 'darwin'){
+                    app.quit();
+                }
+            })
+
+            app.on("ready", ()=>{
+                if(this.root.onready){
+                    this.root.onready(this);
+                }
+
+            })
+
         });
-
     </script>
 </desktop-app>     
