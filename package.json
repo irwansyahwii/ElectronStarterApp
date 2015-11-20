@@ -1,5 +1,6 @@
 {
   "name": "ElectronStarterApp",
+  "version": "1.0.0",
   "main": "launcher.js",
   "scripts": {
     "test": "mocha --compilers js:babel/register tests/***"
