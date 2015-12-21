@@ -11,10 +11,12 @@
 
     <script type="text/es6">
 
+        
 
         this.indexFile = "file://" + __dirname + "/index.html";
 
         this.onready = ()=>{
+
 
             try{
                 this.app.win1.show();

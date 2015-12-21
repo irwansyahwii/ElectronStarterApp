@@ -12,6 +12,8 @@
         this.root.x = opts.x || "";
         this.root.y = opts.y || "";
         this.root.center = opts.center || true;
+        this.root.frame = opts.frame || true;
+        this.root.fullscreen = opts.fullscreen || false;
 
 
         this.root._tag.parent.root[opts.id] = this.root;
@@ -26,7 +28,9 @@
                     height: this.root.height,
                     show: this.root.autoshow,
                     x: this.root.x,
-                    y: this.root.y
+                    y: this.root.y,
+                    frame: this.root.frame,
+                    fullscreen: this.root.fullscreen
                 });
 
                 this.root.browserWindow.on("closed", ()=>{
